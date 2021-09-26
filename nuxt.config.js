@@ -12,7 +12,12 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: '/assets/css/bootstrap.min.css'},
+      { rel: 'stylesheet', href: '/assets/css/bootstrap.css'},
+      { rel: 'stylesheet', href: '/assets/css/leaflet.css'},    
+      { rel: 'stylesheet', href: '/assets/css/mrt.css'},    
+      { rel: 'stylesheet', href: '/assets/css/stylesheet.css'},    
     ]
   },
 

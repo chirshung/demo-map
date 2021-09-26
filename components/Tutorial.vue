@@ -1,46 +1,295 @@
-<!-- Please remove this file from your project -->
 <template>
-  <div class="relative flex items-top justify-center min-h-screen bg-gray-100 sm:items-center sm:pt-0">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
-    <div class="max-w-4xl mx-auto sm:px-6 lg:px-8">
-      <a class="flex justify-center pt-8 sm:pt-0" href="https://nuxtjs.org" target="_blank">
-        <svg width="218" height="45" viewBox="0 0 159 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M55.5017 6.81866H60.1727L70.0719 22.9912V6.81866H74.3837V29.7345H69.7446L59.8135 13.5955V29.7345H55.5017V6.81866Z" fill="#003543" /> <path d="M93.657 29.7344H89.6389V27.1747C88.7241 28.9761 86.8628 29.9904 84.5113 29.9904C80.7869 29.9904 78.3684 27.3059 78.3684 23.4423V13.2339H82.3865V22.5976C82.3865 24.8566 83.7594 26.4276 85.8171 26.4276C88.0712 26.4276 89.6389 24.6598 89.6389 22.2377V13.2339H93.657V29.7344Z" fill="#003543" /> <path d="M107.64 29.7344L103.784 24.2342L99.9291 29.7344H95.6492L101.596 21.1242L96.1074 13.2339H100.485L103.784 17.9821L107.051 13.2339H111.461L105.94 21.1242L111.886 29.7344H107.64Z" fill="#003543" /> <path d="M120.053 8.25848V13.2339H124.627V16.6063H120.053V24.7974C120.053 25.0725 120.162 25.3363 120.356 25.531C120.55 25.7257 120.813 25.8353 121.087 25.8357H124.627V29.728H121.98C118.386 29.728 116.035 27.6323 116.035 23.9687V16.6095H112.801V13.2339H114.83C115.776 13.2339 116.327 12.6692 116.327 11.7349V8.25848H120.053Z" fill="#003543" /> <path d="M134.756 24.5446V6.81866H139.066V23.1864C139.066 27.6067 136.943 29.7345 133.349 29.7345H128.332V25.8421H133.461C133.804 25.8421 134.134 25.7054 134.377 25.4621C134.619 25.2188 134.756 24.8888 134.756 24.5446Z" fill="#003543" /> <path d="M141.649 22.0409H145.799C146.029 24.6006 147.728 26.2308 150.472 26.2308C152.923 26.2308 154.623 25.2501 154.623 23.2199C154.623 18.3085 142.331 21.7129 142.331 12.9395C142.334 9.17515 145.568 6.55945 150.215 6.55945C155.05 6.55945 158.317 9.34153 158.516 13.6306H154.388C154.193 11.6341 152.632 10.2918 150.207 10.2918C147.953 10.2918 146.548 11.3397 146.548 12.9427C146.548 18.0173 159 14.2226 159 23.1576C159 27.4131 155.504 30 150.474 30C145.279 30 141.882 26.8563 141.654 22.0441" fill="#003543" /> <path d="M24.7203 29.704H41.1008C41.6211 29.7041 42.1322 29.5669 42.5828 29.3061C43.0334 29.0454 43.4075 28.6704 43.6675 28.2188C43.9275 27.7672 44.0643 27.2549 44.0641 26.7335C44.0639 26.2121 43.9266 25.6999 43.6662 25.2485L32.6655 6.15312C32.4055 5.70162 32.0315 5.32667 31.581 5.06598C31.1305 4.8053 30.6195 4.66805 30.0994 4.66805C29.5792 4.66805 29.0682 4.8053 28.6177 5.06598C28.1672 5.32667 27.7932 5.70162 27.5332 6.15312L24.7203 11.039L19.2208 1.48485C18.9606 1.03338 18.5864 0.658493 18.1358 0.397853C17.6852 0.137213 17.1741 0 16.6538 0C16.1336 0 15.6225 0.137213 15.1719 0.397853C14.7213 0.658493 14.3471 1.03338 14.0868 1.48485L0.397874 25.2485C0.137452 25.6999 0.000226653 26.2121 2.8053e-07 26.7335C-0.000226092 27.2549 0.136554 27.7672 0.396584 28.2188C0.656614 28.6704 1.03072 29.0454 1.48129 29.3061C1.93185 29.5669 2.44298 29.7041 2.96326 29.704H13.2456C17.3195 29.704 20.3239 27.9106 22.3912 24.4118L27.4102 15.7008L30.0986 11.039L38.1667 25.0422H27.4102L24.7203 29.704ZM13.0779 25.0374L5.9022 25.0358L16.6586 6.36589L22.0257 15.7008L18.4322 21.9401C17.0593 24.2103 15.4996 25.0374 13.0779 25.0374Z" fill="#00DC82" /></svg>
-      </a>
-      <div class="mt-8 bg-white overflow-hidden shadow sm:rounded-lg p-6">
-        <h2 class="text-2xl leading-7 font-semibold">
-          Welcome to your Nuxt Application
-        </h2>
-        <p class="mt-3 text-gray-600">
-          We recommend you take a look at the <a href="https://nuxtjs.org" target="_blank" class="text-green-500 hover:underline">Nuxt documentation</a>, whether you are new or have previous experience with the framework.<br>
-        </p>
-        <p class="mt-4 pt-4 text-gray-800 border-t border-dashed">
-          To get started, remove <code class="bg-gray-100 text-sm p-1 rounded border">components/Tutorial.vue</code> and start coding in <code class="bg-gray-100 text-sm p-1 rounded border">pages/index.vue</code>. Have fun!
-        </p>
-      </div>
-      <div class="flex justify-center pt-4 space-x-2">
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank"><svg
-          class="w-6 h-6 text-gray-600 hover:text-gray-800"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          aria-hidden="true"
-          role="img"
-          width="32"
-          height="32"
-          preserveAspectRatio="xMidYMid meet"
-          viewBox="0 0 24 24"
-        ><path d="M12 2.247a10 10 0 0 0-3.162 19.487c.5.088.687-.212.687-.475c0-.237-.012-1.025-.012-1.862c-2.513.462-3.163-.613-3.363-1.175a3.636 3.636 0 0 0-1.025-1.413c-.35-.187-.85-.65-.013-.662a2.001 2.001 0 0 1 1.538 1.025a2.137 2.137 0 0 0 2.912.825a2.104 2.104 0 0 1 .638-1.338c-2.225-.25-4.55-1.112-4.55-4.937a3.892 3.892 0 0 1 1.025-2.688a3.594 3.594 0 0 1 .1-2.65s.837-.262 2.75 1.025a9.427 9.427 0 0 1 5 0c1.912-1.3 2.75-1.025 2.75-1.025a3.593 3.593 0 0 1 .1 2.65a3.869 3.869 0 0 1 1.025 2.688c0 3.837-2.338 4.687-4.563 4.937a2.368 2.368 0 0 1 .675 1.85c0 1.338-.012 2.413-.012 2.75c0 .263.187.575.687.475A10.005 10.005 0 0 0 12 2.247z" fill="currentColor" /></svg></a>
-        <a href="https://twitter.com/nuxt_js" target="_blank"><svg
-          class="w-6 h-6 text-gray-600 hover:text-gray-800"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          aria-hidden="true"
-          role="img"
-          width="32"
-          height="32"
-          preserveAspectRatio="xMidYMid meet"
-          viewBox="0 0 24 24"
-        ><path d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23z" fill="currentColor" /></svg></a>
+  <main>
+    <div class="wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 id="lines">Rail Lines</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h3 id="mrt">MRT Lines</h3>
+          </div>
+          <div class="col-xs-12 col-md-6 network-list">
+            <a href="https://www.sgtrains.com/network-nsl.html">
+              <div class="network-overlay nsl">
+                <div class="line line-mrt nsl">North-South Line</div>
+                <p class="network-dest"><span class="stn"><span class="destcode nsl">4</span> <span class="stncode nsl">NS1</span> Jurong East</span> | <span class="stn"><span class="destcode nsl">5</span> <span class="stn"><span class="stncode nsl">NS28</span> Marina South Pier</span></span></p>
+                <p>
+                  High capacity line with
+                  27 stations over 45km
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-md-6 network-list">
+            <a href="https://www.sgtrains.com/network-ewl.html">
+              <div class="network-overlay ewl">
+                <div class="line line-mrt ewl">East-West Line</div>
+                <p class="network-dest"><span class="stn"><span class="destcode ewl">1</span> <span class="stncode ewl">EW1</span> Pasir Ris</span> | <span class="stn"><span class="destcode ewl">2</span> <span class="stn"><span class="stncode ewl">EW33</span> Tuas Link</span></span> | <span class="stn"><span class="destcode ewl">3</span> <span class="stn"><span class="stncode ewl">CG2</span> Changi Airport</span></span></p>
+                <p>
+                  High capacity line with 35 stations over 56.7km 
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-md-6 network-list">
+            <a href="https://www.sgtrains.com/network-nel.html">
+              <div class="network-overlay nel">
+                <div class="line line-mrt nel">North East Line</div>
+                <p class="network-dest"><span class="stn"><span class="destcode nel">6</span> <span class="stncode nel">NE1</span> HarbourFront</span> | <span class="stn"><span class="destcode nel">7</span> <span class="stn"><span class="stncode nel">NE17</span> Punggol</span></span></p>
+                <p>
+                  Automated high capacity line with
+                  16 stations over 20km 
+                </p>
+              </div>
+            </a>
+          </div>
+          
+        </div>
+        
+        
+        
       </div>
     </div>
-  </div>
+
+    <div class="map">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="clear-margin-bottom">
+              <h2 id="map">Future Train Network Map</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+      <div id="systemmap" class="pointer-only leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" tabindex="0" style="position: relative;"><div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(0px, -190px, 0px);"><div class="leaflet-pane leaflet-tile-pane"></div><div class="leaflet-pane leaflet-shadow-pane"></div><div class="leaflet-pane leaflet-overlay-pane"><object class="leaflet-image-layer leaflet-zoom-animated" data="./Network _ SGTrains.com_files/systemmap_2021.svg" style="z-index: 1; transform: translate3d(377px, 40px, 0px); width: 594px; height: 420px;"></object></div><div class="leaflet-pane leaflet-marker-pane"></div><div class="leaflet-pane leaflet-tooltip-pane"></div><div class="leaflet-pane leaflet-popup-pane"></div><div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(297.5px, -210px, 0px) scale(1);"></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"><div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="https://www.sgtrains.com/network.html#" title="Zoom in" role="button" aria-label="Zoom in">+</a><a class="leaflet-control-zoom-out" href="https://www.sgtrains.com/network.html#" title="Zoom out" role="button" aria-label="Zoom out">&#8722;</a></div></div><div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"></div></div></div>
+        
+      <!-- <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <object data="./Network _ SGTrains.com_files/systemmap_2021.svg" class="touch-only">Future Train Network Map</object>
+            <p style="text-align: right;">Download: <a href="https://www.sgtrains.com/img/network/systemmap_2021.png" target="_blank">PNG</a> (for mobile) | <a href="https://www.sgtrains.com/img/network/systemmap_2021.pdf" target="_blank">PDF</a> (for print)</p>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </main>
 </template>
+
+<script>
+export default {
+    mounted() {
+        var map = L.map('systemmap', {
+          crs: L.CRS.Simple,
+          minZoom: 0,
+          maxZoom: 4,
+          zoomSnap: 0.5,
+          zoomDelta: 0.5,
+          wheelPxPerZoomLevel: 100,
+          attributionControl: false
+        });
+        var bounds = [[0,0], [210,297]];
+        var image = L.imageOverlay('../../assets/img/systemmap_2021.svg', bounds, {alt: 'Singapore Train Network Map'}).addTo(map);
+        map.fitBounds([[10,10], [200,287]]);
+        map.setMaxBounds([[-10,-10], [220,307]]);
+    },
+    head: {   		
+      link: [                  
+        // { rel: 'stylesheet', href: './Network _ SGTrains.com_files/leaflet.css'},  
+      ],			
+      script: [  
+        {        
+            src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js",
+            type: "text/javascript",
+            body: true //set this 'script' before the </body>        
+        },
+        {        
+            src: "/assets/js/respond.min.js",
+            type: "text/javascript",		  
+            body: true //set this 'script' before the </body>        
+        },
+        // {        
+        //     async: "",
+        //     src: "./Network _ SGTrains.com_files/analytics.js.t&#7843;i xu&#7889;ng",
+        //     type: "text/javascript",		  
+        // },
+        // {        
+        //     src: "./Network _ SGTrains.com_files/leaflet.js.t&#7843;i xu&#7889;ng",
+        //     type: "text/javascript",		  
+        // },
+        // {        
+        //     src: "./Network _ SGTrains.com_files/jquery.min.js.t&#7843;i xu&#7889;ng",
+        //     type: "text/javascript",		  
+        // },
+        // {        
+        //     src: "./Network _ SGTrains.com_files/respond.min.js.t&#7843;i xu&#7889;ng",
+        //     type: "text/javascript",		  
+        // },
+              
+                   
+      ]
+    },
+
+}
+</script>
+
+<style>
+/* @import url("@/assets/css/mrt.css"); */
+/* @import url("@/assets/css/leaflet.css"); */
+/* @import url("@/assets/css/stylesheet.css"); */
+
+.network-list{
+  margin-bottom:24px;
+  font-size:12px;
+}
+.network-list a{
+  color:#FFF;
+}
+.network-list a:hover{
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+.network-list img{
+  width:100%;
+  height:150px;
+}
+.network-dest{
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.line{
+  min-width:150px;
+  font-size:12px;
+  padding-left:16px;
+  margin-bottom:4px;
+}
+.network-overlay{
+  padding:8px;
+  min-height:90px;
+  background-position:center center;
+}
+.network-overlay .line{
+  display: block;
+  width: 100%;
+  font-size: 22px;
+  padding-left: 42px;
+  text-align: left;
+  font-weight: normal;
+}
+.network-overlay p{
+  margin-bottom: 2px;
+}
+
+.guide-list{
+  margin-top:24px;
+  margin-bottom:24px;
+  font-size:12px;
+}
+.guide-list a{
+  color:#FFF;
+}
+.guide-list a:hover{
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+.guide-overlay{
+  display: block;
+  padding:2px 8px 12px 90px;
+  width: 100%;
+  min-height:82px;
+  color: black;
+  text-align: left;
+  font-weight: normal;
+  background-position:left center;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 82px;
+}
+.guide-overlay p{
+  margin-bottom: 2px;
+}
+
+.lines{
+  background-image: url(/assets/img/network-lines.svg);
+}
+.networkmap{
+  background-image: url(/assets/img/network-map.svg);
+}
+.history{
+  background-image: url(/assets/img/network-history.svg);
+}
+.figures{
+  background-image: url(/assets/img/network-figures.svg);
+}
+
+.row-scroll{
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding: 0 16px;
+  margin: 16px 0 -32px 0;
+  margin-bottom: 0px;
+}
+.year{
+  vertical-align: top;
+  text-align: center;
+  display: inline-block;
+  font-size: 32px;
+  font-weight: lighter;
+  width:200px;
+  white-space: normal;
+  margin-right: 16px;
+  margin-top: 48px;
+}
+.year small{
+  font-size: 16px;
+  font-weight: normal;
+}
+.event{
+  /*float: left;*/
+  vertical-align: top;
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 150%;
+  width:200px;
+  white-space: normal;
+  margin-right: 16px;
+}
+.event .lead{
+  margin: 12px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.map{
+  color: #000;
+  background-color: #ddd;
+}
+.unopened{
+  opacity: 0.5;
+}
+
+#systemmap{
+  height: 80vh;
+}
+
+
+
+@media (hover: none) {
+  .pointer-only {
+    display: none;
+  }
+}
+
+@media (hover: hover) {
+  .touch-only {
+    display: none;
+  }
+}
+</style>
