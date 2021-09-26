@@ -59,22 +59,46 @@
         <div class="row">
           <div class="col-xs-12">
             <div class="clear-margin-bottom">
-              <h2 id="map">Future Train Network Map</h2>
+              <h2 id="map">Future Train Network Map (Copy right by https://www.sgtrains.com)</h2>
             </div>
           </div>
         </div>
       </div>
         
-      <div id="systemmap" class="pointer-only leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" tabindex="0" style="position: relative;"><div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(0px, -190px, 0px);"><div class="leaflet-pane leaflet-tile-pane"></div><div class="leaflet-pane leaflet-shadow-pane"></div><div class="leaflet-pane leaflet-overlay-pane"><object class="leaflet-image-layer leaflet-zoom-animated" data="./Network _ SGTrains.com_files/systemmap_2021.svg" style="z-index: 1; transform: translate3d(377px, 40px, 0px); width: 594px; height: 420px;"></object></div><div class="leaflet-pane leaflet-marker-pane"></div><div class="leaflet-pane leaflet-tooltip-pane"></div><div class="leaflet-pane leaflet-popup-pane"></div><div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(297.5px, -210px, 0px) scale(1);"></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"><div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="https://www.sgtrains.com/network.html#" title="Zoom in" role="button" aria-label="Zoom in">+</a><a class="leaflet-control-zoom-out" href="https://www.sgtrains.com/network.html#" title="Zoom out" role="button" aria-label="Zoom out">&#8722;</a></div></div><div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"></div></div></div>
+      <div id="systemmap" class="pointer-only leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" tabindex="0" style="position: relative;">
+        <div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(0px, -190px, 0px);">
+          <div class="leaflet-pane leaflet-tile-pane"></div>
+          <div class="leaflet-pane leaflet-shadow-pane"></div>
+          <div class="leaflet-pane leaflet-overlay-pane">
+            <object class="leaflet-image-layer leaflet-zoom-animated" data="/assets/img/systemmap_2021.svg" style="z-index: 1; transform: translate3d(377px, 40px, 0px); width: 594px; height: 420px;"></object>
+          </div>
+          <div class="leaflet-pane leaflet-marker-pane"></div>
+          <div class="leaflet-pane leaflet-tooltip-pane"></div>
+          <div class="leaflet-pane leaflet-popup-pane"></div>
+          <div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(297.5px, -210px, 0px) scale(1);"></div>
+        </div>
+
+        <div class="leaflet-control-container">
+          <div class="leaflet-top leaflet-left">
+            <div class="leaflet-control-zoom leaflet-bar leaflet-control">
+              <a class="leaflet-control-zoom-in" href="https://www.sgtrains.com/network.html#" title="Zoom in" role="button" aria-label="Zoom in">+</a>
+              <a class="leaflet-control-zoom-out" href="https://www.sgtrains.com/network.html#" title="Zoom out" role="button" aria-label="Zoom out">&#8722;</a>
+            </div>
+          </div>
+          <div class="leaflet-top leaflet-right"></div>
+          <div class="leaflet-bottom leaflet-left"></div>
+          <div class="leaflet-bottom leaflet-right"></div>
+        </div>
+      </div>
         
-      <!-- <div class="container">
+      <div class="container">
         <div class="row">
           <div class="col-xs-12">
-            <object data="./Network _ SGTrains.com_files/systemmap_2021.svg" class="touch-only">Future Train Network Map</object>
+            <object data="/assets/img/systemmap_2021.svg" class="touch-only">Future Train Network Map(Copy right by https://www.sgtrains.com)</object>
             <p style="text-align: right;">Download: <a href="https://www.sgtrains.com/img/network/systemmap_2021.png" target="_blank">PNG</a> (for mobile) | <a href="https://www.sgtrains.com/img/network/systemmap_2021.pdf" target="_blank">PDF</a> (for print)</p>
           </div>
         </div>
-      </div> -->
+      </div>
     </div>
   </main>
 </template>
@@ -82,19 +106,19 @@
 <script>
 export default {
     mounted() {
-        var map = L.map('systemmap', {
-          crs: L.CRS.Simple,
-          minZoom: 0,
-          maxZoom: 4,
-          zoomSnap: 0.5,
-          zoomDelta: 0.5,
-          wheelPxPerZoomLevel: 100,
-          attributionControl: false
-        });
-        var bounds = [[0,0], [210,297]];
-        var image = L.imageOverlay('../../assets/img/systemmap_2021.svg', bounds, {alt: 'Singapore Train Network Map'}).addTo(map);
-        map.fitBounds([[10,10], [200,287]]);
-        map.setMaxBounds([[-10,-10], [220,307]]);
+        // var map = L.map('systemmap', {
+        //   crs: L.CRS.Simple,
+        //   minZoom: 0,
+        //   maxZoom: 4,
+        //   zoomSnap: 0.5,
+        //   zoomDelta: 0.5,
+        //   wheelPxPerZoomLevel: 100,
+        //   attributionControl: false
+        // });
+        // var bounds = [[0,0], [210,297]];
+        // var image = L.imageOverlay('/assets/img/systemmap_2021.svg', bounds, {alt: 'Singapore Train Network Map'}).addTo(map);
+        // map.fitBounds([[10,10], [200,287]]);
+        // map.setMaxBounds([[-10,-10], [220,307]]);
     },
     head: {   		
       link: [                  
